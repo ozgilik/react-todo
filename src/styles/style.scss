@@ -1,0 +1,23 @@
+.remove-button{
+	display: flex;
+	width: 20px;
+	height: 20px;
+	padding:0;
+	font-size: 12px;
+	justify-content: center;
+	align-items: center;
+}
+
+.add-item{
+	flex-direction: column;
+	form{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		input{
+			flex: 1;
+			margin-right: 15px;
+		}
+	}
+}
